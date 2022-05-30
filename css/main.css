@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+.body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://img.purch.com/rc/1280x800/aHR0cDovL3d3dy5zcGFjZS5jb20vaW1hZ2VzL2kvMDAwLzA0MC82OTgvb3JpZ2luYWwvZGVlcC1zcGFjZS1sYS1zaWxsYS0xOTIwLmpwZw==');
+  background-repeat: repeat-y;
+  background-size: cover;
+  color: white;
+}
+.title {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.article {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  width: fit-content;
+  padding: 10px;
+  font-size: 18px;
+}
+.img {
+  width: 100%;
+  height: 100%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+.select {
+  margin: 20px;
+}
+.button {
+  margin: 20px;
+  background-color: goldenrod;
+  font-weight: bolder;
+  height: 35px;
+  padding: 0 5px;
+  border-radius: 10px;
+}
+.imgbutton {
+  padding-top: 20px;
+  width: 50%;
+  height: 50%;
+}
+
+.hidden {
+  display: none;
+}
